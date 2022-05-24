@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2 {
-    background:#4e7dba;
+    background:#000000;
     padding: 20px 30px;
     margin: 0;
 }
@@ -17,11 +17,11 @@ h1, h2 {
 h1 {
     font-family: "Times New Roman", Times, serif;
     font-weight: 900;
-    color:rgb(235, 91, 168)
+    color:rgb(202, 45, 129)
 }
 
 h2 {
-    color: rgb(201, 217, 236);
+    color: rgb(202, 45, 129);
 }
 
 
