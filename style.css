@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2 {
-    background: #974986;
+    background: #87ebce;
     padding: 20px 30px;
     margin: 0;
 }
@@ -23,7 +23,7 @@ section {
 }
 
 section > p {
-    background-color: white;
+    background-color: rgb(211, 235, 231);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
