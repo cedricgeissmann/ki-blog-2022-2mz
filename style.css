@@ -39,6 +39,6 @@ section > p {
     padding-left: 50px;
     padding-right: 10px;
     border-left: 5px solid darkgrey;
-    background-color: white;
+    background-color: rgb(195, 225, 245);
     text-align: justify;
 }
