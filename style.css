@@ -24,7 +24,7 @@ section {
     margin: 0;
 }
 
-section > p, h4 {
+section > p, h3 {
     background-color: white;
     padding: 20px 10px;
     margin: 0;
@@ -45,6 +45,10 @@ section > p, h4 {
     text-align: justify;
 }
 
-p, h4 {
+p, h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    color:rgb(53, 101, 150)
 }
