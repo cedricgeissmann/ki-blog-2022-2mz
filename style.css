@@ -36,3 +36,9 @@ section > p {
     color: rgb(250, 250, 250);
 }
 
+.cite {
+    background-color: rgb(225, 235, 248);
+    padding: 20px 10px;
+    margin: 0;
+    text-align: justify;
+}
