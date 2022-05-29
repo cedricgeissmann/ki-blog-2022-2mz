@@ -30,7 +30,7 @@ section {
 }
 
 section > p {
-    background-color: white;
+    background-color: rgb(177, 177, 219);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
