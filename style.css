@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgrey;
+    background-color: rgb(149, 146, 146);;
 }
 
 h1 {
@@ -35,7 +35,7 @@ section {
 }
 
 section > p {
-    background-color: seagreen;
+    background-color: rgb(196, 203, 199);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -51,6 +51,6 @@ section > p {
     padding-left: 50px;
     padding-right: 10px;
     border-left: 5px solid darkgrey;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(149, 146, 146);
     text-align: justify;
 }
