@@ -15,7 +15,7 @@ h1, h2 {
 }
 
 h1 {
-    font-family: "serif, Goudy Old Style"
+    font-family: "Goudy Old Style", Times, serif;
     font-weight: 900;
     color:rgb(253, 1, 165)
 }
