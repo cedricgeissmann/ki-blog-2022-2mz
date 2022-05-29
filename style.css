@@ -35,7 +35,7 @@ section {
 }
 
 section > p {
-    background-color: darkgrey
+    background-color: gray
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
