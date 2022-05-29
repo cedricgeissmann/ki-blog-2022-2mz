@@ -5,11 +5,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(172, 171, 171);
+    background-color: lightgrey;
 }
 
 h1 {
-    background:#7b7780;
+    background:#817f84;
     padding: 20px 30px;
     margin: 0;
 }
