@@ -23,14 +23,14 @@ body {
     } 
 
     h2 {
-    border-style: double;
+    border-top-style: solid;
     border-color: rgb(109, 223, 243);
-    border-radius: 100%;
-    border-width: 10px;
+    border-radius: 15%;
+    border-width: 20px;
     color: rgb(109, 223, 243);
     background-color: black;
     width: 30%;
-    padding: 60px;
+    padding: 10px;
     font-family:'Calibri';
     }
 
@@ -44,6 +44,7 @@ section {
 
 section > p {
     background-color:rgb(109, 223, 243);
+    border-left-style: double;
     border-width: 20px;
     border-color: black;
     color: black;
@@ -55,7 +56,7 @@ section > p {
     margin-left: 10%;
     margin-right: 10%;
 }
-li {
+ul {
     background-color:rgb(109, 223, 243);
 }
 
