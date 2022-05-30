@@ -24,10 +24,12 @@ h1 {
 h2 {
     color: rgb(142, 165, 183);
     font-family: "Calibri", Times, sans-serif;
+    margin-left: 10;
 }
 
 h3 {
     font-family: "Calibri", Times, sans-serif ;
+    margin-left: 10;
 
 }
 
@@ -37,6 +39,7 @@ ul {
 
 p {
     font-family: "Calibri", Times, sans-serif;
+    margin-left: 10;
 }
 
 
