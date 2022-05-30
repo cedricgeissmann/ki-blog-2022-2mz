@@ -26,7 +26,8 @@ section > p {
     background-color: white;
     padding: 20px 10px;
     margin: 0;
-    text-align: justify;
+    text-align: center;
+    text-emphasis-style: none;
 }
 
 .reference {
@@ -40,5 +41,5 @@ section > p {
     padding-right: 10px;
     border-left: 5px solid darkgrey;
     background-color: white;
-    text-align: center;
+    text-align: justify;
 }
