@@ -30,8 +30,8 @@ section > p {
 }
 
 .reference {
-    font-weight: bold;
-    text-decoration: none;
+    font-weight: bolder;
+    text-decoration: wavy;
     color: rgb(0, 0, 0);
 }
 
