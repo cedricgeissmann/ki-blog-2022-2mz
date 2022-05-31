@@ -5,15 +5,20 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgrey;
+    background-color: rgb(167, 163, 163);
 }
 
-h1, h2 {
-    background: #7bba4e;
+h1 {
+    background: #db7283;
+    padding: 20px 30px;
+    margin: 0;
+    color: white;
+}
+h2 {
+    background: #db7283;
     padding: 20px 30px;
     margin: 0;
 }
-
 .container {
     padding: 40px 5%;
 }
@@ -42,3 +47,13 @@ section > p {
     background-color: white;
     text-align: justify;
 }
+
+
+.toggle:hover ul {
+    display: block;
+}
+
+.toggle ul {
+    display: none;
+}
+
