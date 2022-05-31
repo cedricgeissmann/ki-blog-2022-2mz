@@ -30,6 +30,17 @@ h2 {
     font-family: Verdana;
     font-size: medium;
 }
+h6 {
+    background-color: rgb(249, 241, 230);
+    padding: 20px 10px;
+    margin: auto;
+    text-align: justify;
+    width: 80%;
+}
+h4 {
+    text-align: center;
+    font-weight: 400;
+}
 h5 {
     background: rgb(207, 201, 193);
     padding: 20px 30px;
