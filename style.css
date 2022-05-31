@@ -7,13 +7,17 @@ body {
     padding: 0;
 
     background-image: url("background.jpg");
+    
 }
+p {
+    background-color: rgb(250, 250, 242);
 
+}
 h1, h2 {
     background: #afdda4;
     padding: 20px 30px;
     margin: 0;
-    border-radius: 2px;
+    border: radius 3px;
 }
 
 .container {
@@ -26,7 +30,7 @@ section {
 }
 
 section > p {
-    background-color: white;
+    background-color: rgb(250, 250, 242);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -42,21 +46,29 @@ section > p {
     padding-left: 50px;
     padding-right: 10px;
     border-left: 5px solid darkgrey;
-    background-color: white;
+    background-color: rgb(250, 250, 242);
     text-align: justify;
 }
 
 ul, ol {
-    background-color: white;
+    background-color: rgb(250, 250, 242);
+    margin-top:0;
+    margin-bottom:0;
 
 }
 
 ul li {
-    background-color: white;
+    background-color: rgb(250, 250, 242);
+    margin-top:0;
+    margin-bottom:0;
+
 }
 
 ol li {
-    background-color: white;
+    background-color: rgb(250, 250, 242);
+    margin-top:0;
+    margin-bottom:0;
+
 
 
 }
