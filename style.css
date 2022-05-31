@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(129, 218, 248);
+    background-color: rgb(201, 241, 254);
 }
 
 h1, h2 {
@@ -41,7 +41,7 @@ section > p {
 }
 
 .cite {
-    background-color: rgb(129, 218, 248);
+    background-color: rgb(201, 241, 254);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
