@@ -5,17 +5,17 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(167, 163, 163);
+    background-color: #8ed6bd;
 }
 
 h1 {
-    background: #db7283;
+    background: #2ba87f;
     padding: 20px 30px;
     margin: 0;
     color: white;
 }
 h2 {
-    background: #db7283;
+    background: #48b691;
     padding: 20px 30px;
     margin: 0;
 }
@@ -28,7 +28,7 @@ section {
 }
 
 section > p {
-    background-color: white;
+    background-color: rgb(133, 199, 179);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -43,7 +43,7 @@ section > p {
 .cite {
     padding-left: 50px;
     padding-right: 10px;
-    border-left: 5px solid darkgrey;
+    border-left: 5px solid rgb(248, 30, 30);
     background-color: white;
     text-align: justify;
 }
