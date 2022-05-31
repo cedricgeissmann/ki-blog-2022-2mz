@@ -5,13 +5,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgrey;
-}
+    background-color: rgb(171, 207, 207);
+    font-family: serif }
 
 h1, h2 {
-    background: #7bba4e;
+    background: #338d87;
     padding: 20px 30px;
-    margin: 0;
+    box-shadow: -6px 4px 10px rgb(16, 63, 69)
+    
 }
 
 .container {
@@ -41,4 +42,8 @@ section > p {
     border-left: 5px solid darkgrey;
     background-color: white;
     text-align: justify;
+}
+h1 {color: rgb(14, 52, 54);}
+h2 {color: rgb(29, 81, 91) ;
+    margin: 1%;
 }
