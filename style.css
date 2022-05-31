@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: lightgrey;
+    background-image: url("https://images.unsplash.com/photo-1599424056685-cacc7bee5cc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
 }
 
 h1, h2 {
