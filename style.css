@@ -5,14 +5,34 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgrey;
+    background-image: url("https://zukuenfte-ki.de/wp-content/uploads/2019/05/cropped-background_img.png");
 }
 
-h1, h2 {
-    background: #7bba4e;
-    padding: 20px 30px;
-    margin: 0;
-}
+   
+    h1{
+    border-style: double;
+    border-color: rgb(109, 243, 241);
+    border-radius: 5px;
+    border-width: 25px;
+    padding: 10px;
+    color: rgb(109, 243, 241);
+    font-family:'Calibri';
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    } 
+
+    h2 {
+    border-top-style: solid;
+    border-color: rgb(109, 243, 241);
+    border-radius: 15%;
+    border-width: 20px;
+    color: rgb(109, 243, 241);
+    background-color: black;
+    width: 30%;
+    padding: 10px;
+    font-family:'Calibri';
+    }
 
 .container {
     padding: 40px 5%;
@@ -23,10 +43,25 @@ section {
 }
 
 section > p {
-    background-color: white;
+    background-color:rgb(109, 243, 241);
+    border-left-style: double;
+    border-width: 20px;
+    border-color: black;
+    color: black;
+    font-size: larger;
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
+    font-family:'Calibri';
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ul {
+    background-color:rgb(109, 243, 241);
+    border-left-style: double;
+    border-right-style: double;
+    border-width: 20px;
+    border-color: black;
 }
 
 .reference {
@@ -41,4 +76,16 @@ section > p {
     border-left: 5px solid darkgrey;
     background-color: white;
     text-align: justify;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+#progressbar {
+    position: fixed;
+    top: 0;
+    right: width;
+    width: 30px;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgb(109, 243, 241), rgb(109, 243, 241), rgb(0, 0, 0))
 }
