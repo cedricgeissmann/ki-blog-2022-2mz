@@ -12,6 +12,7 @@ h1, h2 {
     background-image: linear-gradient(90deg, rgb(8, 15, 28), rgb(164, 246, 203));
     background-clip: text;
     color: white;   
+    font-family:'Times New Roman', Times, serif;
     padding: .5em;
     box-decoration-break: clone;
     text-align: center;
@@ -23,27 +24,10 @@ h1, h2 {
     background-color: transparent;
 }
 
-section {
-    margin: 0;
-}
-
 section > p {
     background-color: transparent;
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
-}
-
-.reference {
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-}
-
-.AIs {
-    padding-left: 50px;
-    padding-right: 10px;
-    border-left: 5px solid darkgrey;
-    background-color: white;
-    text-align: justify;
+    font-size:large;
 }
