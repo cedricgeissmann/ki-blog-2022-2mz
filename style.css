@@ -3,9 +3,11 @@
 }
 
 body {
-    margin: 0;
+    margin: 100px;
     padding: 0;
     background-image: url("abc.webp");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h2 {
@@ -41,6 +43,74 @@ h1 {
     text-align: center;
     padding: 20px 10px;
     margin: 0;
-    font-size:large;
+    font-size:larger;
     font-family: sans-serif;
+}
+
+.abcdef{
+    text-align: center;
+}
+
+::-webkit-scrollbar
+{
+    width: 0;
+}
+#progressbar
+{
+    position: fixed;
+    top: 0;
+    margin-left: 92.5%;
+    right: width;
+    width: 15px;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgb(180, 234, 252), #206399, #060329)
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:   #333;
+  }
+  
+  li {
+    display:inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 14px 16px;
+    font-weight: lighter;
+    font-size: 15px; 
+    text-decoration: none;
+    text-align: centerc;
+    padding: 0px 20px;
+  }
+
+.coolio {
+    position: absolute;
+    top: 10;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .7s
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .7s;
 }
