@@ -3,20 +3,39 @@
 }
 
 body {
-    background-image: "blind.png";
+    background-image: url("blind.png");
     margin: 0;
     padding: 0;
     
 }
 
-h1, h2 {
-    background: #7bba4e;
+h1 {
+    background: #000000;
     padding: 20px 30px;
     margin: 0;
+    color: white;
+}
+h2 {
+    background: #3a3939;
+    padding: 20px 30px;
+    margin: 0;
+    color: white;
+}
+li {
+    background: #ffffff;
+    padding: 20px 30px;
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+ul{
+    background: white;
+    padding: 20px 30px;
+    margin:0;
+    color: #000000;
 }
 
 .container {
-    padding: 40px 5%;
+    padding: 40px 10%;
 }
 
 section {
@@ -39,7 +58,10 @@ section > p {
 .cite {
     padding-left: 50px;
     padding-right: 10px;
-    border-left: 5px solid darkgrey;
     background-color: white;
     text-align: justify;
 }
+img {float: right;
+    display: inline;
+    margin: 20px;
+    border: 20px}
