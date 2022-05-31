@@ -8,11 +8,40 @@ body {
     background-color: lightgrey;
 }
 
-h1, h2 {
-    background: #7bba4e;
-    padding: 20px 30px;
+h1 {
+    background:#817f84;
+    padding: 20px 25px;
     margin: 0;
+    margin-left: 10;
 }
+
+h1 {
+    font-family: "Calibri", Times, sans-serif;
+    font-weight: 900;
+    color:rgb(142, 165, 183)
+}
+
+h2 {
+    color: rgb(142, 165, 183);
+    font-family: "Calibri", Times, sans-serif;
+    margin-left: 10;
+}
+
+h3 {
+    font-family: "Calibri", Times, sans-serif ;
+    margin-left: 10;
+
+}
+
+ul {
+    font-family: "Calibri", Times, sans-serif ;
+}
+
+p {
+    font-family: "Calibri", Times, sans-serif;
+    margin-left: 10;
+}
+
 
 .container {
     padding: 40px 5%;
@@ -23,8 +52,8 @@ section {
 }
 
 section > p {
-    background-color: white;
-    padding: 20px 10px;
+    background-color: lightgrey;
+    padding: 5px 5px;
     margin: 0;
     text-align: justify;
 }
@@ -39,6 +68,6 @@ section > p {
     padding-left: 50px;
     padding-right: 10px;
     border-left: 5px solid darkgrey;
-    background-color: white;
+    background-color: lightgray;
     text-align: justify;
 }
