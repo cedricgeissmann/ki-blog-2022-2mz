@@ -30,6 +30,15 @@ h2 {
     font-family: Verdana;
     font-size: medium;
 }
+h5 {
+    background: rgb(207, 201, 193);
+    padding: 20px 30px;
+    margin: 5px;
+    border-radius: 20px;
+    font-family: Verdana;
+    font-size: large;
+    text-align: center;
+}
 
 .container {
     padding: 40px 5%;
