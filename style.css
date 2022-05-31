@@ -5,13 +5,19 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgrey;
-}
 
+    background-image: url("background.jpg");
+    
+}
+p {
+    background-color: rgb(250, 250, 242);
+
+}
 h1, h2 {
-    background: #7bba4e;
+    background: #afdda4;
     padding: 20px 30px;
     margin: 0;
+    border: radius 3px;
 }
 
 .container {
@@ -20,10 +26,11 @@ h1, h2 {
 
 section {
     margin: 0;
+    font-size: 20px;
 }
 
 section > p {
-    background-color: white;
+    background-color: rgb(250, 250, 242);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -39,6 +46,36 @@ section > p {
     padding-left: 50px;
     padding-right: 10px;
     border-left: 5px solid darkgrey;
-    background-color: white;
+    background-color: rgb(250, 250, 242);
     text-align: justify;
+}
+
+ul, ol {
+    background-color: rgb(250, 250, 242);
+    margin-top:0;
+    margin-bottom:0;
+
+}
+
+ul li {
+    background-color: rgb(250, 250, 242);
+    margin-top:0;
+    margin-bottom:0;
+
+}
+
+ol li {
+    background-color: rgb(250, 250, 242);
+    margin-top:0;
+    margin-bottom:0;
+
+
+
+}
+.toggle:hover ul {
+    display: block;
+}
+
+.toggle ul {
+    display: none;
 }
