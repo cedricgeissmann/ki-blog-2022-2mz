@@ -5,7 +5,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgrey;
+    background-image: url("KI_Strategie_FB.jpg") ;
+    
     
 }
 
@@ -13,7 +14,7 @@ h1, h2 {
     background: #7bba4e;
     padding: 20px 30px;
     margin: 0;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px gray;
 }
 
 .container {
