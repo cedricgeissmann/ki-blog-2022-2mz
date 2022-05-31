@@ -10,6 +10,7 @@ body {
 
 h1, h2 {
     background: #1f0f93;
+    background-image: linear-gradient(90deg, rgb(20, 20, 105), rgb(169, 132, 89));
     padding: 20px 30px;
     margin: 0;
     color:white
@@ -17,6 +18,7 @@ h1, h2 {
 
 .container {
     padding: 40px 5%;
+    color: white;
 }
 
 section {
@@ -24,7 +26,7 @@ section {
 }
 
 section > p {
-    background-color: white;
+    background-color: transparent;
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -40,6 +42,6 @@ section > p {
     padding-left: 50px;
     padding-right: 10px;
     border-left: 5px solid darkgrey;
-    background-color: white;
+    background-color: transparent;
     text-align: justify;
 }
