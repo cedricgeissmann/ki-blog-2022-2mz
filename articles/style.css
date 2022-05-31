@@ -5,11 +5,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgrey;
+    background-color: rgb(255, 255, 255);
 }
 
 h1, h2 {
-    background: #7bba4e;
+    background: #0b1504;
     padding: 20px 30px;
     margin: 0;
 }
@@ -23,7 +23,7 @@ section {
 }
 
 section > p {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -38,7 +38,7 @@ section > p {
 .cite {
     padding-left: 50px;
     padding-right: 10px;
-    border-left: 5px solid darkgrey;
-    background-color: white;
+    border-left: 5px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     text-align: justify;
 }
