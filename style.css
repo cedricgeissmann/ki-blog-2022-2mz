@@ -28,7 +28,7 @@ section {
 }
 
 section > p {
-    background-color: rgb(59, 94, 107);
+    background-color: rgb(254, 254, 254);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -41,7 +41,7 @@ section > p {
 }
 
 .cite {
-    background-color: rgb(156, 73, 73);
+    background-color: rgb(255, 254, 254);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
