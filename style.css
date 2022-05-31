@@ -15,7 +15,7 @@ body {
 h1, h2 {
     background: linear-gradient(to bottom,rgb(169, 239, 158),rgb(100, 209, 249));
     padding: 20px 30px;
-    margin: 0;
+    margin: 1%;
     color: rgb(244, 248, 250);
 }
 
