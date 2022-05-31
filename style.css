@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2 {
-    background: #7bba4e;
+    background: #df8ed1;
     padding: 20px 30px;
     margin: 0;
 }
@@ -20,7 +20,7 @@ h1, h2 {
 
 section {
     margin: 0;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 section > p {
