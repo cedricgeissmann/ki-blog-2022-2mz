@@ -23,7 +23,7 @@ section {
 }
 
 section > p {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -32,7 +32,7 @@ section > p {
 .reference {
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: #ffffffff;
 }
 
 .cite {
