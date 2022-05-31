@@ -43,3 +43,7 @@ section > p {
     background-color: white;
     text-align: justify;
 }
+
+ul, ol {
+    background-color: white;
+}
