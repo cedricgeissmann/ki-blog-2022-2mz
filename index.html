@@ -7,14 +7,15 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <div id="progressbar"></div>
         <main class="container">
             <h1>Künstliche Intelligenz in autonomen Fahrzeugen</h1>
     
             <section>
                 <p>
-                In diesem Blog beschäftige ich mich mit dem KI System in den Autonomen Autos.
-                Ich werde die Funktion, Herausforderungen sowie Vor- und Nachteile behandeln. 
-                Am Ende werde ich noch meine Meinung darstellen.
+                    In diesem Blog beschäftige ich mich mit dem KI System in den Autonomen Autos.
+                    Ich werde die Funktion, Herausforderungen sowie Vor- und Nachteile behandeln. 
+                    Am Ende werde ich noch meine Meinung darstellen.
                 </p>
             </section>
 
@@ -70,9 +71,19 @@
             </section>
 
             <section>
-                <h2>Implikationen für die Gesellschaft</h2>
+                <h2>Implikationen für die Gesellschaft und meine Meinung</h2>
                 <p>
-                    
+                    Mit Autonomen Autos wird der Verkehr noch mehr automatisiert und unsere menschliche einflüsse werden vermindert. Es wird wahrscheinlich
+                    eine grosse Herausforderung für die ANbieter in der Gesellschaft ein Vertrauen in eine KI zu erlangen. Viele MEnschen beziehen jetzt schon eine negative stellung zu
+                    einem Ki gesteuerten Auto, da man auf eine relativ neue Technologie in diesem Fall sein Leben anvertrauen muss und ich vermute, diese Autorevolution wird
+                    nicht überall gut aufgenommen. Aus eigener erfahrung weiss ich auch, dass es viele Menschen gibt, die sehr gerne selbst fahren. Es wird noch eine
+                    weile dauern bis die autonomen Autos auf den Markt kommen und vielleicht wird sich die Gesellschaft bis dann darauf vorbereiten. <br>
+                    Ich persönlich sehe noch weitere Probleme mit Autonomen Autos. Abgesehen davon, dass ich sowieso gegen einen ausgeprägten, motoriesiertem
+                    Individualverkehr bin, da ich mich konsequent gegen verbrennen von Fossilen Brennstoffen stelle (Die Elektroauto variante ist momentan auch noch nicht 
+                    klimaneutral, auf grund der Batterien und teilweise der Energiegewinnung), bin auch dagegen, dass Grosskonzerne noch mehr Daten von mir
+                    sammeln können und durch mich noch mehr Vermögen generieren. Gäbe es irgentwann eine Klimaneutrale, Nicht Umweltzerstörende Variante, die non profit wäre,
+                    würde ich es in betracht ziehen ein Auto zu kaufen. Ich denke es wäre eine bessere Lösung, den Öfentlichen Verkehr besser auszuarbeiten und ihn attraktiver
+                    für die Gesellschaft zu gestalten.
                 </p>
             </section>
 
@@ -92,5 +103,17 @@
             </section>
         
         </main>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+        <script type="text/javascript">
+            $(window).scroll(function(){
+                var scroll= $(window).scrollTop(),
+                dh = $(document).height(),
+                wh = $(window).height();
+                scrollPercent = (scroll / (dh-wh)) * 100;
+                $('#progressbar').css('height', scrollPercent + '%');
+            })
+
+        </script>
     </body>
 </html>
