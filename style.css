@@ -46,4 +46,14 @@ section > p {
 
 ul, ol {
     background-color: white;
+
+}
+
+ul li {
+    background-color: white;
+}
+
+ol li {
+    background-color: white;
+
 }
