@@ -13,10 +13,10 @@ body {
 }
 
 h1, h2 {
-    background: linear-gradient(to bottom,rgb(13, 74, 124),rgb(79, 203, 248));
+    background: linear-gradient(to bottom,rgb(169, 239, 158),rgb(100, 209, 249));
     padding: 20px 30px;
     margin: 0;
-    color: rgb(200, 236, 249);
+    color: rgb(244, 248, 250);
 }
 
 .container {
@@ -28,7 +28,7 @@ section {
 }
 
 section > p {
-    background-color: rgb(148, 225, 253);
+    background-color: rgb(59, 94, 107);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -37,11 +37,11 @@ section > p {
 .reference {
     font-weight: bold;
     text-decoration: none;
-    color: rgb(148, 225, 253);
+    color: rgb(181, 63, 224);
 }
 
 .cite {
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(156, 73, 73);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
