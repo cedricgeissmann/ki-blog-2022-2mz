@@ -6,20 +6,35 @@ body {
     margin: 0;
     padding: 0;
     background-color: lightgrey;
-    background-image: url("file:///C:/Users/laras/OneDrive%20-%20SBL/Desktop/Informatik/fascht%20wieni%20das%20computerding%20will.webp");
+    background-image: url("https://64.media.tumblr.com/da0cf61d7513891c4f8e5d62d07ed1a0/tumblr_mxdx1pDDxh1sso6sco1_500.gifv");
 }
 h1 {
     background-color: #76856b;
     font-family: sans-serif;
     padding: 20px 30px;
-    margin: 0;
+    margin: 3%;
+    margin-left: 0px;
+    margin-right: 0px;
     color: #bac4b1;
 }
 h2 {
-    background: #b4d49d;
-    padding: 20px 30px;
+    background: #99b485cb;
+    padding: 15px 25px;
+    margin: 1%;
+    font-family: sans-serif;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul {
+    background-color: rgb(185, 207, 176);
+    padding: 15px 10px;
     margin: 0;
     font-family: sans-serif;
+    color: #b3855f;
+}
+li {
+    margin-left: 10px;
 }
 
 .container {
@@ -31,7 +46,7 @@ section {
 }
 
 section > p {
-    background-color: rgb(230, 226, 226);
+    background-color: rgb(185, 207, 176);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -40,7 +55,7 @@ section > p {
 .reference {
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 .cite {
