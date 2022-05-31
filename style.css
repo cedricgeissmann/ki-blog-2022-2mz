@@ -5,13 +5,21 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgrey;
+    background-color: rgb(230, 251, 254);
 }
 
-h1, h2 {
-    background: #7bba4e;
+h1 {
+    background-color: rgb(160, 205, 255);
+    padding: 20px 30px;
+    margin: 100;
+    border-radius: 10px;
+}
+
+h2 {
+    background: #b0e1ff;
     padding: 20px 30px;
     margin: 0;
+    border-radius: 10px;
 }
 
 .container {
@@ -21,13 +29,14 @@ h1, h2 {
 section {
     margin: 0;
 }
-
-section > p {
+section >p {
     background-color: white;
+    border-radius: 10px;
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
 }
+
 
 .reference {
     font-weight: bold;
@@ -36,9 +45,9 @@ section > p {
 }
 
 .cite {
-    padding-left: 50px;
-    padding-right: 10px;
-    border-left: 5px solid darkgrey;
     background-color: white;
-    text-align: justify;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 0;
+    
 }
