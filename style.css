@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +13,7 @@ body {
 }
 
 h1, h2 {
-    background: linear-gradient(to bottom,rgb(92, 104, 242),rgb(165, 205, 242));
+    background: linear-gradient(to bottom,rgb(35, 124, 197),rgb(174, 227, 247));
     padding: 20px 30px;
     margin: 0;
     color: rgb(250, 250, 250);
@@ -24,7 +28,7 @@ section {
 }
 
 section > p {
-    background-color: rgb(225, 235, 248);
+    background-color: rgb(129, 218, 248);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -37,7 +41,7 @@ section > p {
 }
 
 .cite {
-    background-color: rgb(225, 235, 248);
+    background-color: rgb(129, 218, 248);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
