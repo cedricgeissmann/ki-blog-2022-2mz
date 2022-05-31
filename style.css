@@ -2,16 +2,22 @@
     box-sizing: border-box;
 }
 
+
+
+
+
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgrey;
+    background-color: rgb(254, 254, 254);
 }
 
 h1, h2 {
-    background: #7bba4e;
+    background: linear-gradient(to bottom,rgb(169, 239, 158),rgb(100, 209, 249));
     padding: 20px 30px;
-    margin: 0;
+    margin: 1%;
+    color: rgb(244, 248, 250);
+    box-shadow: inset 0 0 10px #000000;
 }
 
 .container {
@@ -23,7 +29,7 @@ section {
 }
 
 section > p {
-    background-color: white;
+    background-color: rgb(188, 245, 202);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -32,13 +38,12 @@ section > p {
 .reference {
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: rgb(181, 63, 224);
 }
 
 .cite {
-    padding-left: 50px;
-    padding-right: 10px;
-    border-left: 5px solid darkgrey;
-    background-color: white;
+    background-color: rgb(188, 245, 202);
+    padding: 20px 10px;
+    margin: 0;
     text-align: justify;
 }
