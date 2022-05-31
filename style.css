@@ -17,6 +17,7 @@ h1, h2 {
     padding: 20px 30px;
     margin: 1%;
     color: rgb(244, 248, 250);
+    box-shadow: rgb=rgb(24, 23, 23);
 }
 
 .container {
