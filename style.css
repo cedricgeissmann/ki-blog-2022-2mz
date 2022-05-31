@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: lightgrey;
+    background-image: url("original.jpg");
 }
 
 h1, h2 {
@@ -16,7 +17,7 @@ h1, h2 {
 
 .container {
     padding: 40px 5%;
-    background-color: transparent;
+    background-color: lightgrey;
     color: black;
 }
 
