@@ -24,6 +24,7 @@ section {
 
 section > p {
     background-color: rgb(95, 158, 160);
+    padding: 20px 10px;
     margin: 0;
     text-align: justify;
 }
