@@ -5,15 +5,20 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgrey;
+    background-color: #8ed6bd;
 }
 
-h1, h2 {
-    background: #7bba4e;
+h1 {
+    background: #2ba87f;
+    padding: 20px 30px;
+    margin: 0;
+    color: white;
+}
+h2 {
+    background: #48b691;
     padding: 20px 30px;
     margin: 0;
 }
-
 .container {
     padding: 40px 5%;
 }
@@ -23,7 +28,7 @@ section {
 }
 
 section > p {
-    background-color: white;
+    background-color: rgb(133, 199, 179);
     padding: 20px 10px;
     margin: 0;
     text-align: justify;
@@ -38,7 +43,17 @@ section > p {
 .cite {
     padding-left: 50px;
     padding-right: 10px;
-    border-left: 5px solid darkgrey;
+    border-left: 5px solid rgb(248, 30, 30);
     background-color: white;
     text-align: justify;
 }
+
+
+.toggle:hover ul {
+    display: block;
+}
+
+.toggle ul {
+    display: none;
+}
+
