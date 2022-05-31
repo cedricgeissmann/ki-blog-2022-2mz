@@ -4,17 +4,37 @@
 
 body {
     margin: 0;
+    margin-top: 0x;
     padding: 0;
     background-image: url("KI_Strategie_FB.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family:sans-serif;
+    margin-top: 50px;
+
+
     
     
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 h1, h2 {
-    background: #7bba4e;
+
     padding: 20px 30px;
     margin: 0;
-    box-shadow: 10px 5px 5px gray;
+    background-color: grey, 0.3 ;
+    text-align: center;
+    
+
+}
+h1 {
+    background-color: black;
+}
+h2 {
+    margin-top: 50px;
 }
 
 .container {
@@ -22,14 +42,22 @@ h1, h2 {
 }
 
 section {
-    margin: 0;
+    margin-left: 20;
+    margin-top: 50px;
+    text-align: center;
+    background:rgba(0,0,0,0.5);
+    padding: 2px;
+
 }
 
 section > p {
-    background-color: white;
+
     padding: 20px 10px;
     margin: 0;
-    text-align: justify;
+    text-align: center;
+    font-size: large;
+    
+
 }
 
 .reference {
@@ -41,7 +69,76 @@ section > p {
 .cite {
     padding-left: 50px;
     padding-right: 10px;
-    border-left: 5px solid darkgrey;
-    background-color: white;
     text-align: justify;
+}
+.card, h1{
+    box-shadow: 0px 2px 5px 2px darkgrey;
+    margin: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+::-webkit-scrollbar
+
+{
+
+    width: 0;
+
+}
+
+#progressbar
+
+{
+
+    position: fixed;
+
+    top: 60px;
+
+    right: width;
+
+    width: 15px;
+
+    height: 100%;
+
+    border-radius: 8px;
+
+    background: linear-gradient(to top, #080537, #194b74, #579abe)
+
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    width: 100%;
+      
+  }
+  
+  .navbarlist {
+    float: left;
+
+  }
+  
+  .navbarlist,.navbartext {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+.navbartext:hover {
+    background-color: #111;
+  }
+li {
+    list-style: none;
+}
+
+#finish {
+    text-align: center;
 }
