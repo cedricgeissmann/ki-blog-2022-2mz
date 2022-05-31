@@ -5,17 +5,19 @@
 body {
     margin: 0;
     padding-left: 20px;
-    background-color: lightgrey;
+    background-color: white;
 }
 
 h1, h2 {
-    background: #84d2f7;
+    background: rgb(14, 86, 219)
     padding: 20px 30px;
     margin: 20;
 }
 
 .container {
     padding: 40px 5%;
+    color: black;
+    background-color: white;
 }
 
 section {
@@ -23,7 +25,7 @@ section {
 }
 
 section > p {
-    background-color: white;
+    background-color: transparent;
     padding: 20px 10px;
     margin: 0;
     text-align: center;
