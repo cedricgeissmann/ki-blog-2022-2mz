@@ -5,13 +5,18 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgrey;
+    background-image: url("starcraft_2_deepmind.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
 }
 
-h1, h2 {
-    background: #7bba4e;
-    padding: 20px 30px;
+h1, h2, h3 {
+    
+    padding: 10px 10px;
     margin: 0;
+    color: white;
 }
 
 .container {
@@ -23,10 +28,11 @@ section {
 }
 
 section > p {
-    background-color: white;
+    
     padding: 20px 10px;
     margin: 0;
-    text-align: justify;
+    text-align: center;
+
 }
 
 .reference {
@@ -42,3 +48,10 @@ section > p {
     background-color: white;
     text-align: justify;
 }
+.Name { text-align: left;}
+
+p {
+    color: white;
+}
+
+
